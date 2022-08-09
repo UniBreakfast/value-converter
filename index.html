@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <script src="script.js" defer></script> -->
+  <script src="app.js" type="module"></script>
+
+  <title>Value Converter</title>
+</head>
+
+<body id="body">
+  <h1>Value Converter</h1>
+
+  <form action="javascript:" id="converterForm">
+    <input type="number" name="from-value" id="valueInput" >
+
+    <select name="from-units" id="fromUnitsSelect">
+      <option value="mm">millimeters</option>
+      <option value="cm">centimeters</option>
+      <option value="m">meters</option>
+      <option value="km">kilometers</option>
+      <option value="in">inches</option>
+      <option value="ft">feet</option>
+      <option value="mi">miles</option>
+      <option value="yd">yards</option>
+    </select>
+
+    <select name="to-units" id="toUnitsSelect">
+      <option value="mm">millimeters</option>
+      <option value="cm">centimeters</option>
+      <option value="m">meters</option>
+      <option value="km">kilometers</option>
+      <option value="in">inches</option>
+      <option value="ft">feet</option>
+      <option value="mi">miles</option>
+      <option value="yd">yards</option>
+    </select>
+
+    <output id="valueOutput"></output>
+
+    <button type="submit" id="convertBtn">Convert</button>
+  </form>
+</body>
+
+</html>

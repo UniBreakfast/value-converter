@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#converterForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10% 1%;
+  max-width: 900px;
+  margin: auto;
+  height: 100px;
+}
+
+#converterForm>* {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 24%;
+  text-align: center;
+  line-height: 3;
+}
